@@ -2,7 +2,7 @@
  * @Author: zyj
  * @Date: 2020-12-22 14:15:24
  * @LastEditors: zyj
- * @LastEditTime: 2020-12-22 14:49:03
+ * @LastEditTime: 2020-12-22 14:54:40
  * @Description: file content
  * @FilePath: /PFM-monitor/webpack.config.js
  */
@@ -41,7 +41,7 @@ let config = {
         filename: '[name].min.js', //打包后输出文件的文件名
         publicPath: "", // 配置cdn地址
         chunkFilename: "[name].min.js",
-        library: "monitorjs",  //类库名称
+        library: "Pmonitorjs",  //类库名称
         libraryTarget: "umd",  //指定输出格式
         umdNamedDefine: true //会对UMD的构建过程中的AMD模块进行命名，否则就使用匿名的define
     },

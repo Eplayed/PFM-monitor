@@ -2,7 +2,7 @@
  * @Author: zyj
  * @Date: 2020-12-22 14:49:47
  * @LastEditors: zyj
- * @LastEditTime: 2020-12-22 14:52:12
+ * @LastEditTime: 2020-12-22 14:54:17
  * @Description: file content
  * @FilePath: /PFM-monitor/src/index.js
  */
@@ -13,7 +13,7 @@ import CaptureClick from './utils/captureClick.js'
 import utils from './utils/utils.js'
 import { AjaxError, ConsoleError, JsError, PromiseError, ResourceError, VueError, FrameError } from './error'
 
-let monitorJS = {
+let PmonitorJS = {
     /**
      * 监听页面性能
      * @param {*} options {pageId：页面标示, url：上报地址, isPage：是否上报页面性能数据, isResource：是否上报页面资源数据}
@@ -72,6 +72,6 @@ let monitorJS = {
     }
 }
 
-window.monitorJS = monitorJS
+window.PmonitorJS = PmonitorJS
 
-export default monitorJS
+export default PmonitorJS
